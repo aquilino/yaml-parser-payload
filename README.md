@@ -17,8 +17,9 @@ Put the java code you want execute into [AwesomeScriptEngineFactory.java] and co
 ------bash console-----
 ```bash
 javac AwesomeScriptEngineFactory.java
-```
+
 folder exploit / 
         META-INF/services/javax.script.ScriptEngineFactory inside file put h1dr0.AwesomeScriptEngineFactory/
         h1dr0/AwesomeScriptEngineFactory.class
+```
 Then place the 'AwesomeScriptEngineFactory.class' file in to the web server folder (e.g. h1dr0/AwesomeScriptEngineFactory.class)

@@ -10,8 +10,6 @@ Esto lo pondremos en el servidor victima para que nos ejecute nuestro payload  c
   ]]
 ]
 ```
-(https://github.com/aquilino/yaml-parser-payload/raw/main/img/parser_web.jpg)
-
 En nuestra terminal compartiremos un server con python para que se conecte nuestra victima hacia nosotros asi cargar el payload.
 ```bash
 sudo python3 -m hhtp.server 80

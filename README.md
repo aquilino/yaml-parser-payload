@@ -42,6 +42,7 @@ La estructura del Payload tiene que ser asi para que el servidor haga la peticio
 
 
 A tiny project for generating payloads for the SnakeYAML deserialization gadget (taken from https://github.com/mbechler/marshalsec):
+
 thanks @marshalsec.
 
 

